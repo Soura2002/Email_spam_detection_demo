@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import string
+import nltk
 from collections import Counter
 from nltk.corpus import stopwords
-import nltk
 import pickle
 
 # Download NLTK stopwords (run once)
